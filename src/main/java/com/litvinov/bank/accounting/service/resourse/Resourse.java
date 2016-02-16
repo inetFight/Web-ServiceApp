@@ -10,6 +10,9 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import com.litvinov.bank.accounting.service.models.User;
+import com.litvinov.bank.accounting.service.models.UserService;
+
 @Path("/balance/")
 public class Resourse {
 	UserService service = new UserService();
